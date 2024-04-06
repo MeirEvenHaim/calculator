@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Simple Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display" id="display">0</div>
+      <div class="buttons">
+        <!-- Calculator buttons will be added here -->
+        <button onclick="appendToDisplay('(')">(</button><!--adds parentasis to the calculator -->
+        <button onclick="clearLastElement()">CE</button><!-- adds a clear button to the calculator-->
+        <button onclick="clearDisplay()">C</button><!-- adds the clear display funtion from the js to the calculator-->
+        <button onclick="appendToDisplay('7')">7</button><!-- add the 7 + append with the value of 7 to the calculator the append function is added through the js file-->
+        <button onclick="appendToDisplay('8')">8</button><!-- add the 8 + append with the value of 8 to the calculator the append function is added through the js file-->
+        <button onclick="appendToDisplay('9')">9</button><!-- add the 9 + append with the value of 9 to the calculator the append function is added through the js file-->
+        <button onclick="appendToDisplay('/')">/</button><!--add the / + append with the value of (divide) to the calculator the append function is added through the js file -->
+        <button onclick="appendToDisplay('4')">4</button><!-- add the 4 + append with the value of 4 to the calculator the append function is added through the js file-->
+        <button onclick="appendToDisplay('5')">5</button><!-- add the 5 + append with the value of 5 to the calculator the append function is added through the js file-->
+        <button onclick="appendToDisplay('6')">6</button><!-- add the 6 + append with the value of 6 to the calculator the append function is added through the js file-->
+        <button onclick="appendToDisplay('*')">*</button><!--add the * + append with the value of ((*)multiplication) to the calculator the append function is added through the js file -->
+        <button onclick="appendToDisplay('1')">1</button><!-- add the 1 + append with the value of 1 to the calculator the append function is added through the js file-->
+        <button onclick="appendToDisplay('2')">2</button><!--add the 2 + append with the value of 2 to the calculator the append function is added through the js file -->
+        <button onclick="appendToDisplay('3')">3</button><!-- add the 3 + append with the value of 3 to the calculator the append function is added through the js file-->
+        <button onclick="appendToDisplay('-')">-</button><!-- add the - + append with the value of ((-)substraction) to the calculator the append function is added through the js file-->
+        <button onclick="appendToDisplay('0')">0</button><!-- add the 0 + append with the value of 0 to the calculator the append function is added through the js file-->
+        <button onclick="appendToDisplay('.')">.</button><!-- add the . + append with the value of . to the calculator the append function is added through the js file-->
+        <button onclick="calculateResult()">=</button><!-- -->
+        <button onclick="appendToDisplay('+')">+</button><!--add the (+) + append with the value of ((+)) to the calculator the append function is added through the js file -->
+      </div>
+    </div>
+  </body>
+</html>
